@@ -147,7 +147,7 @@ h3 {
 
 
 .banner_2 {
-    height: 850px;
+    height: 965px;
     border-bottom: 10px solid #bc6c25;
 }
 
@@ -156,12 +156,13 @@ h3 {
     text-align: center;
 }
 
- .box_2 .skill_list {
+.wrapper_skill {
     display: flex;
-    align-items: stretch
+    flex-wrap: wrap;
+    max-width: 960px;
 }
 
-.skill_list .icon_title {
+.wrapper_skill .icon_title {
     font-size: 25px;
     padding: 5px 5px;
     padding-left: 60px;
@@ -169,8 +170,21 @@ h3 {
     color: #fefae0;
 }
 
+.wrapper_skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrapper_skill .skill_tec {
+    width: 430px;
+}
+
+.skill_tec {
+padding-left: 49%;
+}
+
 .progress_bar {
-    /* position: absolute; */
     border: 5px solid #000000;
     box-sizing: border-box;
     height: 40px;
@@ -179,10 +193,4 @@ h3 {
 
 .progress_bar::-webkit-progress-bar {
     background-color: #000;
-}
-
-.skill_list .right {
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
 }
