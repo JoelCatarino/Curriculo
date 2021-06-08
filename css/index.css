@@ -111,29 +111,29 @@ h3 {
 
 
 
-.banner {
+.main_banner {
     background-image: url(../assets/img/EU-nitendo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 850px;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #dda15e;
 
     padding-top: 115px;
     padding-left: 90px;
 }
 
-.banner .wrapper {
+.main_banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 720px;
 
 }
 
-.banner .box {
+.main_banner .box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.main_banner .navigation {
     display: flex;
     justify-content: space-around;
 }
@@ -141,25 +141,30 @@ h3 {
 
 
 
-/* BANNER_2 */
+/* banner */
 
 
 
 
-.banner_2 {
-    height: 965px;
-    border-bottom: 10px solid #bc6c25;
+.banner {
+    height: 900px;
+    border-bottom: 10px solid #606c38;
+    background-color: #bc6c25;
+    
 }
 
-.banner_2 .skills {
+.banner .skills {
     padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
 .wrapper_skill {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     max-width: 960px;
+    
 }
 
 .wrapper_skill .icon_title {
@@ -168,20 +173,21 @@ h3 {
     padding-left: 60px;
     font-family: 'Press Start 2P', cursive;
     color: #fefae0;
+
 }
 
 .wrapper_skill .right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-}
+    justify-content: center;
 
-.wrapper_skill .skill_tec {
-    width: 430px;
 }
 
 .skill_tec {
-padding-left: 49%;
+    padding-left: 49%;
+    width: 430px;
+    display: flex;
+    justify-content: center;
 }
 
 .progress_bar {
@@ -193,4 +199,95 @@ padding-left: 49%;
 
 .progress_bar::-webkit-progress-bar {
     background-color: #000;
+}
+
+
+
+
+
+
+/* PROJECTS AREA */
+
+
+
+
+.title_projects {
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ABOUT AREA */
+
+
+
+
+.main_about {
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 10px solid #606c38;
+}
+
+.description {
+    font-family: 'Fira Code', monospace;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #fefae0;
+    padding: 40px;
+}
+
+.node_card .logo,
+.node_card_2 .logo {
+    display: flex;
+    border: 5px solid #000;
+    background-color: #3f3f61;
+    margin: 30px;
+    padding: auto;
+}
+
+.node_card .node_title,
+.node_card_2 .node_title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #dda15e;
+    padding: 40px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center
+}
+
+
+
+
+/* FOOTER CREDITS */
+
+
+
+
+
+.main_footer {
+    background-color: #212529;
+    height: 60px;
+    font-family: 'Fira Code', monospace;
+    color: #fefae0;
+    font-weight: 100;
+}
+
+.footer_social {
+    padding: 10px;
+    background-color: #212529;
+    text-align: center;
 }

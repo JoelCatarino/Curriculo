@@ -9,6 +9,7 @@
     <title>Joel Catarino Roza da Silva</title>
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/index.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,107 +20,161 @@
 
 <body>
 
+
     <header class="main_header">
         <img src="assets/img/logo.png" alt="Nos moscada">
         <nav>
             <a href="">Skill</a>
-            <a href="https://github.com/JoelCatarino/">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="https://linktr.ee/JoelSillva">Contatos</a>
+            <a href="https://github.com/JoelCatarino/">Projects</a>
+            <a href="">About</a>
+            <a href="https://linktr.ee/JoelSillva">Contacts</a>
             <a class="j_hover" id="button" href="">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <main>
 
-        <div class="wrapper">
-            <div class="box">
-                <h2> Joel Catarino </h1>
+        <section class="main_banner">
 
-                    <h3> Full Stack Developer
-                </h2>
+            <div class="wrapper">
+                <div class="box">
+                    <h2> Joel Catarino </h2>
+                    <h3> Full Stack Developer</h3>
+                </div>
+
+                <div class="navigation">
+                    <a class="j_hover" id="button" href="">Download CV</a>
+                    <a class="j_hover" id="button" href="">Contacts</a>
+                </div>
             </div>
 
-            <div class="navigation">
-                <a class="j_hover" id="button" href="">Download CV</a>
-                <a class="j_hover" id="button" href="">Contatos</a>
+        </section>
+
+        <section class="banner">
+
+            <div class="skills">
+                <h2>Skills</h2>
             </div>
-        </div>
 
-    </section>
+            <div class="wrapper_skill">
 
-    <section class="banner_2">
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_html.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">HTML</h1>
+                        <progress class="progress_bar" max="100" value="85"></progress>
+                    </div>
+                </article>
 
-        <div class="skills">
-            <h2>Skills</h2>
-        </div>
 
-        <div class="wrapper_skill">
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_css.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">CSS</h1>
+                        <progress class="progress_bar" max="100" value="85"></progress>
+                    </div>
+                </article>
 
-            <!-- <article class="skill_list"> -->
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_jquery.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">JQUERY</h1>
+                        <progress class="progress_bar" max="100" value="60"></progress>
+                    </div>
+                </article>
 
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_html.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">HTML</h1>
-                    <progress class="progress_bar" max="100" value="85"></progress>
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_mysql.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">MYSQL</h1>
+                        <progress class="progress_bar" max="100" value="30"></progress>
+                    </div>
+                </article>
+
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_php.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">PHP</h1>
+                        <progress class="progress_bar" max="100" value="50"></progress>
+                    </div>
+                </article>
+
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_laravel.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">LARAVEL</h1>
+                        <progress class="progress_bar" max="100" value="10"></progress>
+                    </div>
+                </article>
+
+                <article class="skill_tec">
+                    <img class="icon" src="assets/img/ico_vue.png" alt="">
+                    <div class="right">
+                        <h1 class="icon_title">VUE.JS</h1>
+                        <progress class="progress_bar" max="100" value="85"></progress>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="title_projects">
+                <h2>Projects</h2>
+
+                <a class="j_hover" id="button" href="https://github.com/JoelCatarino/">Projects!</a>
+            </div>
+
+        </section>
+
+        <section class="main_about">
+
+            <article class="about">
+                <h2>About</h2>
+
+                <div class="carousel">
+                    <figure class="node_card">
+                        <figcaption class="node_title">2019</figcaption>
+
+                        <div class="logo">
+                            <img src="assets/img/game.png" alt="Dankicode">
+                        </div>
+
+                    </figure>
+
+
+                    <figure class="node_card_2">
+                        <figcaption class="node_title">2020</figcaption>
+
+                        <div class="logo">
+                            <img src="assets/img/upinside.png" alt="UpInside">
+                        </div>
+
+                    </figure>
                 </div>
-            </article>
 
+                <p class="description">Currently, Full Stack PHP developer student at UpInside, Joel got to know the
+                    world of
+                    programming in late 2019 where he bought a game development course by Dankicode even without a
+                    computer. In January 2020, he had his first pc assembled. July 2020 had to stop studying gamedev and
+                    bought the Full Stack PHP course at Upinside, since then Joel is passionate about programming and
+                    has never stopped studying. And in June 2021, Joel thinks that it is time to have an Internship
+                    opportunity in a company (group) of developers where he can add value and learn to live in
+                    community. </p>
+            </article>
+        </section>
+
+        <footer class="main_footer">
             
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_css.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">CSS</h1>
-                    <progress class="progress_bar" max="100" value="85"></progress>
-                </div>
-            </article>
-            
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_jquery.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">JQUERY</h1>
-                    <progress class="progress_bar" max="100" value="60"></progress>
-                </div>
-            </article>
-            
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_mysql.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">MYSQL</h1>
-                    <progress class="progress_bar" max="100" value="30"></progress>
-                </div>
-            </article>
-            
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_php.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">PHP</h1>
-                    <progress class="progress_bar" max="100" value="50"></progress>
-                </div>
-            </article>
-            
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_laravel.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">LARAVEL</h1>
-                    <progress class="progress_bar" max="100" value="10"></progress>
-                </div>
-            </article>
-            
-            <article class="skill_tec">
-                <img class="icon" src="assets/img/ico_vue.png" alt="">
-                <div class="right">
-                    <h1 class="icon_title">VUE.JS</h1>
-                    <progress class="progress_bar" max="100" value="85"></progress>
-                </div>
-            </article>
+            <div class="footer_social">
+                <img src="assets/img/linkedin.png" alt="Linkedin">
+                <img src="assets/img/github_2.png" alt="Github">
+            </div>
 
-        </div>
+        </footer>
 
-    </section>
+    </main>
 
 </body>
+
 <script src="js/jquery.js"></script>
 <script src="index.js"></script>
 
