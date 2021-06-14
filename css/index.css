@@ -1,5 +1,6 @@
 body {
     background-color: #283618;
+    min-width: fit-content;
 }
 
 .main_header {
