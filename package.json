@@ -1,0 +1,24 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "- Know a little more about me\r - Conheca um pouco mais sobre mim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelCatarino/Curriculo.git"
+  },
+  "author": "Joel Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoelCatarino/Curriculo/issues"
+  },
+  "homepage": "https://github.com/JoelCatarino/Curriculo#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0"
+  }
+}

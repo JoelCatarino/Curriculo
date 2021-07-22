@@ -4,209 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/img/logo.png">
     <title>Joel Catarino Roza da Silva</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
+<body class="bg-secondary">
 
     <header class="main_header">
-        <img src="assets/img/logo.png" alt="Nos moscada">
-        <nav>
-            <a href="">Skill</a>
-            <a href="https://github.com/JoelCatarino/">Projects</a>
-            <a href="">About</a>
-            <a href="https://linktr.ee/JoelSillva">Contacts</a>
-            <a class="j_hover" id="button" href="">Download CV</a>
-        </nav>
+        <div class="header_bar bg-dark">
+
+            <div class="container d-lg-flex col-lg-4 justify-content-center align-items-center">
+                <div class="row">
+
+                    <nav class="navbar navbar-expand-lg">
+
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="mx-3 nav-link active text-white" aria-current="page"
+                                    href="#">Skills</a>
+                            </li>
+
+                            <li class="nav-item"><a class="mx-3 nav-link active text-white" aria-current="page"
+                                    href="https://github.com/JoelCatarino/">Projects</a>
+                            </li>
+
+                            <li class="nav-item"> <a class="mx-3 nav-link active text-white" aria-current="page"
+                                    href="#">About</a>
+                            </li>
+
+                            <li class="nav-item"><a class="mx-3 nav-link active text-white" aria-current="page"
+                                    href="">Contact</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </header>
 
-    <main>
-
-        <section class="main_banner">
-
-            <div class="wrapper">
-                <div class="box">
-                    <h2> Joel Catarino </h2>
-                    <h3> Full Stack Developer</h3>
-                </div>
-
-                <div class="navigation">
-                    <a class="j_hover" id="button" href="">Download CV</a>
-                    <a class="j_hover" id="button" href="">Contacts</a>
+    <div class="main_slide d-none d-md-block">
+        <div class="container" style="height: 100%;">
+            <div class="row align-items-center" style="height: 100%;">
+                <div class="col-8">
+                    <p class="main_slide_content text-center">Joel Catarino Roza da Silva</p>
                 </div>
             </div>
+        </div>
+    </div>
 
-        </section>
-
-        <section class="banner">
-
-            <div class="skills">
-                <h2>Skills</h2>
+    <section class="main_list_group py-5 bg-gray">
+        <div class="container">
+            <div class="p-4 border-bottom">
+                <h1 class="text-center">Skills</h1>
             </div>
 
-            <div class="wrapper_skill">
+            <div class="main_list_group_items mt-5 ms-5 d-flex justify_content_around row">
 
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_html.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">HTML</h1>
-                        <progress class="progress_bar" max="100" value="85"></progress>
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_html.png') no-repeat; background-size: 50px 50px;">
+                        <h2>HTML5</h2>
                     </div>
                 </article>
 
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
 
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_css.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">CSS</h1>
-                        <progress class="progress_bar" max="100" value="85"></progress>
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_css.png') no-repeat; background-size: 50px 50px;">
+                        <h2>CSS3</h2>
+                    </div>
+
+                </article>
+
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_jquery.png') no-repeat; background-size: 50px 50px;">
+                        <h2>JQUERY</h2>
                     </div>
                 </article>
 
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_jquery.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">JQUERY</h1>
-                        <progress class="progress_bar" max="100" value="60"></progress>
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_php.png') no-repeat; background-size: 50px 50px;">
+                        <h2>PHP</h2>
                     </div>
                 </article>
 
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_mysql.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">MYSQL</h1>
-                        <progress class="progress_bar" max="100" value="30"></progress>
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_laravel.png') no-repeat; background-size: 50px 45px;">
+                        <h2>LARAVEL</h2>
                     </div>
                 </article>
 
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_php.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">PHP</h1>
-                        <progress class="progress_bar" max="100" value="50"></progress>
+                <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-center"
+                        style="background: url('assets/img/ico_vue.png') no-repeat; background-size: 50px 50px;">
+                        <h2>VUE.JS</h2>
                     </div>
                 </article>
-
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_laravel.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">LARAVEL</h1>
-                        <progress class="progress_bar" max="100" value="10"></progress>
-                    </div>
-                </article>
-
-                <article class="skill_tec">
-                    <img class="icon" src="assets/img/ico_vue.png" alt="">
-                    <div class="right">
-                        <h1 class="icon_title">VUE.JS</h1>
-                        <progress class="progress_bar" max="100" value="5"></progress>
-                    </div>
-                </article>
-
             </div>
 
-            <div class="title_projects">
-                <h2>Projects</h2>
+        </div>
+    </section>
 
-                <a class="j_hover" id="button" href="https://github.com/JoelCatarino/">Projects!</a>
-            </div>
-
-        </section>
-
-        <section class="main_about">
-
-            <article class="about">
-                <h2>About</h2>
-
-                <div class="carousel">
-                    <figure class="node_card">
-                        <figcaption class="node_title">2019</figcaption>
-
-                        <div class="logo">
-                            <img src="assets/img/game.png" alt="Dankicode">
-                        </div>
-
-                    </figure>
-
-
-                    <figure class="node_card_2">
-                        <figcaption class="node_title">2020</figcaption>
-
-                        <div class="logo">
-                            <img src="assets/img/upinside.png" alt="UpInside">
-                        </div>
-
-                    </figure>
+    <section class="main_about">
+        <div class="container">
+            <div class="row">
+                <div class="p-4 p-4 border-bottom">
+                    <h1 class="text-center">About</h1>
                 </div>
 
-                <p class="description">Currently, Full Stack PHP developer student at UpInside, Joel got to know the
-                    world of
-                    programming in late 2019 where he bought a game development course by Dankicode even without a
-                    computer. In January 2020, he had his first pc assembled. July 2020 had to stop studying gamedev and
-                    bought the Full Stack PHP course at Upinside, since then Joel is passionate about programming and
-                    has never stopped studying. And in <b>June 2021</b>, Joel thinks that it is time to have an
-                    Internship
-                    opportunity in a company (group) of developers where he can add value and learn to live in
-                    community. </p>
-            </article>
-        </section>
-
-        <section class="form">
-
-            <div class="contact">
-                <h2>contact</h2>
-            </div>
-
-            <form>
-
-                <label class="main_label" for="name">Name</label>
-                <input type="text">
-
-                <label class="main_label" for="email">Email</label>
-                <input type="text">
-
-                <label class="main_label" for="message">Message</label>
-                <textarea class="area" id="message"></textarea>
-
-                <button class="j_hover" id="button" type="submit">Enviar</button>
-
-            </form>
-
-        </section>
-
-        <footer class="main_footer">
-
-            <div class="footer_social">
-
-                <a href="https://www.linkedin.com/in/joel-catarino-977a8a19b/" target="_blank">
-                    <img src="assets/img/linkedin.png" alt="Linkedin">
-                </a>
-
-                <a href="https://github.com/JoelCatarino" target="_blank">
-                    <img src="assets/img/github_2.png" alt="Github">
-                </a>
+                <div class="main_about_content mt-5">
+                    <p>
+                        Currently, Full Stack PHP developer student, Joel got to know the
+                        world of
+                        programming in late 2019 where he bought a game development course by Dankicode even without a
+                        computer. In January 2020, he had his first pc assembled. July 2020 had to stop studying gamedev
+                        and
+                        bought the Full Stack PHP course at Upinside, since then Joel is passionate about programming
+                        and
+                        has never stopped studying. And in <b>June 2021</b>, Joel thinks that it is time to have an
+                        Internship
+                        opportunity in a company (group) of developers where he can add value and learn to live in
+                        community.
+                    </p>
+                </div>
 
             </div>
+        </div>
 
-        </footer>
+    </section>
 
-    </main>
+    <div class="container mt-5">
+        <div class="row text-center">
 
+            <footer class="main_footer">
+                <div class="footer_social">
+
+                    <a class="m-2" href="https://github.com/JoelCatarino" target="_blank">
+                        <img src="assets/img/github.png" alt="Github">
+                    </a>
+
+                    <a class="m-2" href="https://www.linkedin.com/in/joel-catarino-977a8a19b/" target="_blank">
+                        <img src="assets/img/linkedin.png" alt="Linkedin">
+                    </a>
+
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-<script src="js/jquery.js"></script>
-<script src="index.js"></script>
 
 </html>
