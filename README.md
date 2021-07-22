@@ -1,8 +1,11 @@
 # Personal Curriculum CV
 
 - Know a little more about me
-- Conheca um pouco mais sobre mim
 
+<div>
+  <img src="assets/img/curriculum.png">
+</div>
+  
 ##
 # About
 
